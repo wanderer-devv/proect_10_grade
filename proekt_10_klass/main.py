@@ -22,8 +22,8 @@ class user_states(StatesGroup):
     anon_mes = State()
 
 
-token = '7208741591:AAGDv2GfbjzcMUDsAom-YddUA9KezqQ8Riw' # тест
-# token = '7146065095:AAFFF9CDXUhm_uttw5ekm84OWunzVKwSxaU' # основа
+token = 'TOKEN_1' # тест
+# token = 'TOKEN_2' # основа
 
 bot = Bot(token=token, default=DefaultBotProperties(parse_mode="HTML"))
 dp = Dispatcher()
